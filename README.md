@@ -1,4 +1,4 @@
-**CodeGuardian AI**
+# **CodeGuardian AI**
 
 A system of intelligent agents that operate on code repositories, PRs, and CI/CD pipelines to provide context-aware insights, recommendations, and automation for development teams. The system is orchestrated by an MCP (Multi-Agent Control Platform) which manages agents, context, and communication.
 
