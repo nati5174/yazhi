@@ -5,7 +5,7 @@ from sqlalchemy.ext.asyncio import AsyncSession
 async def store_pull_request(ctx: Dict[str, Any], db: AsyncSession) -> dict:
 
     pr = PrMetadata( pr_number=ctx["pr_number"], 
-                     repo_name=ctx["repo_full_name"], 
+                     repo_name=ctx["repo_name"], 
                      sha=ctx["sha"],
                      action=ctx["action"])
 
